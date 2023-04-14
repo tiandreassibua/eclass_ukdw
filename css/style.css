@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+header {
+    background-color: #2c6842;
+    display: flex;
+    justify-content: center;
+    box-shadow: 3px 3px 10px #888888;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 10px;
+    font-weight: 600;
+}
+
+header a:hover {
+    background-color: #235033;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__left {
+    text-transform: uppercase;
+    display: flex;
+    /* gap: 10px; */
+}
+
+.section__logo {
+    padding: 20px 0 10px 50px;
+    background-color: #eaeaea;
+    border-bottom: 3px solid #e3e3e3;
+}
+
+.main__wrapper {
+    margin: 143px 0px;
+}
+
+hr {
+    width: 100%;
+    border: none;
+    height: 2px;
+    background-color: #e3e3e3;
+}
+
+.fa-download {
+    color: #2c6842;
+}
+
+.fa-download:hover {
+    color: #235033;
+}
+
+.main__content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main__content div {
+    width: 80%;
+    margin: 10px;
+}
+
+.table__wrapper {
+    margin: 0 auto;
+}
+
+table {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+td a {
+    text-align: center;
+    color: #555555;
+    text-decoration: none;
+    display: block;
+    padding: 3px 0;
+}
+
+td a:hover {
+    background-color: #ddd;
+}
+
+th a {
+    padding: 3px 0;
+    text-decoration: none;
+    color: #424242;
+    display: block;
+}
+
+th a:hover {
+    background-color: #ddd;
+}
+
+.main__content div:nth-child(2) {
+    text-align: center;
+}
+
+.main__content div:nth-child(3) {
+    width: 100%;
+}
+
+.login__wrapper {
+    height: 100%;
+    padding: 20px;
+    border: 2px solid #e0e0e0 ;
+}
+
+.login__wrapper > span {
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.table__form {
+    text-align: left;
+}
+
+form {
+    padding-left: 10px;
+}
+
+form > input {
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+    padding: 4px 12px;
+    border-radius: 2px;
+    border: none;
+    margin: 0 5px 0 0;
+    background-color: #2c6842;
+    color: white;
+    font-weight: 600;
+    line-height: 14px;
+    font-size: 12px;
+    margin-left: 69%;
+}
+
+.text__red {
+    color: #cf1797;
+}
+
+.text__blue {
+    color: blue;
+}
+
+.bg__yellow {
+    background-color: #ffff00;
+}
+
+.current {
+    border: 1px solid black;
+}
+
+form > p {
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 13px;
+}
+
+.input {
+    width: 100%;
+}
+
+.list_agenda, .tanggal_agenda, .agenda {
+    margin: 10px 0;
+}
+
+.list_agenda {
+    color: #434343;
+    font-weight: 700;
+}
+
+.agenda {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tanggal_agenda {
+    color: #2c6842;
+    font-weight: 600;
+}
+
+.info__ukdw {
+    background-color: #2c6842;
+    font-weight: 300;
+    padding: 20px 0;
+    color: #fff;
+}
+
+.footer__ukdw {
+    margin: 10px 0;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.copyright {
+    background-color: #235033;
+    color: #fff;
+    text-align: right;
+    padding: 5px 0;
+}
